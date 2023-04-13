@@ -1,14 +1,14 @@
-from src.Utils.ParticleVision import ParticleVision
-from src.Utils.Entities import Field
-from src.Utils import Utils
+from src.Utils.particle_vision import ParticleVision
+from src.Utils.entities import Field
+from src.Utils import utils
 import os
 
 if __name__ == "__main__":
     cwd = os.getcwd()
 
     # CONFIG SCENARIO
-    scenario = 'SQR'
-    round = '01'
+    scenario = 'rnd'
+    round = '02'
 
     # PATH TO LOG DATA
     path = cwd + f'/data/{scenario}_{round}'
@@ -23,7 +23,7 @@ if __name__ == "__main__":
     # SIMULATE ROBOT VISION
     embedded_vision = ParticleVision(FOV = 64)
 
-    Utils.process_data(path = path, 
+    utils.process_data(path = path, 
                        field = field,
                        embedded_vision = embedded_vision,
                        debug = False)
