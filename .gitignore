@@ -1,3 +1,11 @@
+# Ignore files from scenarios 01 and 03
+data/sqr_01/
+data/sqr_03/
+data/rnd_01/
+data/rnd_03/
+data/igs_01/
+data/igs_03/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
