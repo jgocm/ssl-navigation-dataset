@@ -1,0 +1,11 @@
+length: 7.8
+width: 5.4
+boundary_width: 0.3
+penalty_width: 1.8
+penalty_depth: 0.9
+goal_width: 1
+goal_depth: 0.18
+x_min: -0.3
+x_max: 4.2
+y_min: -3
+y_max: 3
